@@ -743,21 +743,21 @@ form textarea.form-control {
   }
 }
 header {
-  background: #66cdcc;
+  background: #fc306a;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fc306a), color-stop(100%, #fc5f42));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fc306a, endColorstr=#fc5f42, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 header .navbar-default ul.navbar-nav li a {
@@ -816,60 +816,60 @@ header .navbar-default ul.navbar-nav li a:hover {
   transition: all 0.25s ease-in-out;
 }
 header .navbar-default.scrolled {
-  border-bottom: 3px solid #336799;
+  border-bottom: 3px solid #fc5f42;
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-  color: #336799;
+  color: #fc5f42;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
-  color: #336799;
+  color: #fc5f42;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover:after {
-  background: #336799;
+  background: #fc5f42;
 }
 header .navbar-default.scrolled .navbar-brand {
-  background: #336799;
+  background: #fc5f42;
 }
 section .section-heading .divider:after {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#about .about-item i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #fc306a;
+  color: #fc306a;
 }
 section#about .about-item:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#about .about-item:hover h3 {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#features {
   background: #f6f6f6;
 }
 section#features header h1:after {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#features .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #fc306a;
+  color: #fc306a;
 }
 section#features .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#features .media:hover h3 {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#features .media.active i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#features .media.active .media-heading {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#reviews {
-  background: url("../img/freeze/bk-freeze.jpg");
+  background: url("../img/freeze/bk-freeze-ga.jpg");
 }
 section#reviews header {
   color: #ffffff;
@@ -884,10 +884,10 @@ section#reviews .review-filtering .review .review-comment {
   background: #ffffff;
 }
 section#reviews .review-filtering .review .review-comment h3 {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#reviews .review-filtering .review .review-comment p span i {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#reviews .review-filtering .review .review-comment:after {
   border-right-color: #ffffff;
@@ -897,10 +897,10 @@ section#reviews .review-filtering .slick-dots li button {
   border: 2px solid #ffffff;
 }
 section#reviews .review-filtering .slick-dots li.slick-active button {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#screens header h1:after {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#screens .slider div img {
   border: 2px solid #e5e5e5;
@@ -912,7 +912,7 @@ section#screens .slider .slick-dots li button {
   background: #999999;
 }
 section#screens .slider .slick-dots li.slick-active button {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#screens .filter a {
   border: 2px solid #cccccc;
@@ -920,24 +920,24 @@ section#screens .filter a {
 }
 section#screens .filter a:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #fc306a;
+  border-color: #fc306a;
 }
 section#screens .filter a.active {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #fc306a;
+  border-color: #fc306a;
 }
 /* demo video Section */
 section#demo {
   background: #f6f6f6;
 }
 section#demo header h1:after {
-  background: #66cdcc;
+  background: #fc306a;
 }
 /* Get app Section */
 section#getApp {
-  background: url("../img/freeze/bk-freeze-ga.jpg");
+  /*background: url("../img/freeze/bk-freeze-ga.jpg");*/
 }
 section#getApp header {
   color: #ffffff;
@@ -960,43 +960,43 @@ section#getApp .platforms .media:hover {
 }
 section#getApp .platforms .media:hover a i,
 section#getApp .platforms .media:hover a div.media-body {
-  color: #66cdcc;
+  color: #fc306a;
 }
 /* support section */
 section#support header h1:after {
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#support .media i.fa {
-  border: 2px solid #66cdcc;
-  color: #66cdcc;
+  border: 2px solid #fc306a;
+  color: #fc306a;
 }
 section#support .media a {
-  color: #66cdcc;
+  color: #fc306a;
 }
 section#support .media:hover i.fa {
   color: #ffffff;
-  background: #66cdcc;
+  background: #fc306a;
 }
 section#support .media:hover h3 {
-  color: #66cdcc;
+  color: #fc306a;
 }
 /* footer section */
 footer {
-  background: #66cdcc;
+  background: #fc306a;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #fc306a), color-stop(100%, #fc5f42));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: linear-gradient(-45deg, #fc306a 0%, #fc5f42 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fc306a, endColorstr=#fc5f42, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {
@@ -1009,7 +1009,7 @@ footer .social a:hover {
   background: #ffffff;
 }
 footer .social a:hover i {
-  color: #66cdcc;
+  color: #fc306a;
 }
 footer .rights {
   color: #ffffff;
@@ -1024,13 +1024,13 @@ footer .rights a {
   border: 1px solid rgba(0, 0, 0, 0);
 }
 .btn.btn-primary {
-  color: #66cdcc;
-  border-color: #66cdcc;
+  color: #fc306a;
+  border-color: #fc306a;
 }
 .btn.btn-primary:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #fc306a;
+  border-color: #fc306a;
 }
 .btn.btn-primary.inverse {
   color: #ffffff;
@@ -1038,8 +1038,8 @@ footer .rights a {
 }
 .btn.btn-primary.inverse:hover {
   color: #ffffff;
-  background: #66cdcc;
-  border-color: #66cdcc;
+  background: #fc306a;
+  border-color: #fc306a;
 }
 .btn.btn-default {
   background: #ffffff;
@@ -1058,13 +1058,13 @@ footer .rights a {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#cccccc, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
-  color: #336799;
+  color: #fc5f42;
 }
 .btn.btn-default:hover {
-  color: #336799;
+  color: #fc5f42;
 }
 form .form-control:focus {
-  border-color: #66cdcc;
+  border-color: #fc306a;
   color: #999999;
 }
 @media screen and (max-width: 640px) {
@@ -1074,7 +1074,7 @@ form .form-control:focus {
   }
   header .navbar-default ul.navbar-nav li a {
     color: #ffffff;
-    border-bottom: 1px solid #376fa4;
+    border-bottom: 1px solid #fc514e;
   }
   header .navbar-default ul.navbar-nav li a.getApp {
     color: #ffffff;
@@ -1083,21 +1083,21 @@ form .form-control:focus {
     display: none;
   }
   header .navbar-default ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #fc306a;
   }
   header .navbar-default .navbar-collapse {
-    background: #336799;
+    background: #fc5f42;
   }
   header .navbar-default.scrolled {
-    background: #336799;
+    background: #fc5f42;
   }
   header .navbar-default.scrolled ul.navbar-nav li a {
     color: #ffffff;
   }
   header .navbar-default.scrolled ul.navbar-nav li a:hover {
-    color: #66cdcc;
+    color: #fc306a;
   }
 }
 .pre-loader {
-  background: #336799;
+  background: #fc5f42;
 }
